@@ -8,15 +8,14 @@ asset host and copy it down here.
 
 | File | Use |
 |---|---|
-| `cookedcoke-small-logo-400.png` | Mark only. Used in the nav. |
+| `cookedcoke-full-logo-750w.png` | Full lockup. Page header. |
+| `cookedcoke-full-logo-1500w.png` | Same, for 2× displays. |
+| `cookedcoke-small-logo-400.png` | Mark only. Shown, forced white, in the team-photo slot until `img/team.jpg` exists. |
 
-The mark alone is correct here: the brand sheet sets a 180px minimum width for
-the full lockup, and the nav shows it at 26px. The mark is coloured, so it needs
-no light/dark variant — don't reintroduce a theme swap for it.
-
-Wordmark typeface is Montserrat Bold (700); the rest of this site is set in
-Montserrat to match the shopfront. Brand red is `#FE0001`, or `#B30000` for
-small text on light backgrounds.
+The full lockup has a 180px minimum width per the brand sheet; below that use the
+mark alone. The header clamps it to exactly 180px at phone widths. Wordmark
+typeface is Montserrat Bold (700), and the rest of the site is set in Montserrat
+to match. Brand red is `#FE0001`, or `#B30000` for small text on white.
 
 ## Credit
 
