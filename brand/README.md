@@ -10,6 +10,7 @@ asset host and copy it down here.
 |---|---|
 | `cookedcoke-full-logo-750w.png` | Full lockup. Page header. |
 | `cookedcoke-full-logo-1500w.png` | Same, for 2× displays. |
+| `cookedcoke-full-logo-white-1500w.png` | White lockup. Used in the header when the device is in dark mode. |
 | `cookedcoke-small-logo-400.png` | Mark only. Shown, forced white, in the team-photo slot until `img/team.jpg` exists. |
 
 The full lockup has a 180px minimum width per the brand sheet; below that use the
